@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title> 遠徵在綫 | 评论管理系统 - 中國遠徵</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="shortcut icon" href="https://womade.github.io/Z.ico" />
+    <link rel="bookmark"href="https://womade.github.io/Z.ico" />
+</head>
+
+<body>
+
+    <div class="sign-in-wrap">
+        <p class="title"> 遠徵在綫 </p>
+        <form method="post" action="/login" class="gh-signin">
+            <input tabindex="1" name="username" placeholder="管理员邮箱" autofocus="" type="text" class="gh-input">
+            <input tabindex="2" name="password" placeholder="密码" type="password" class="password gh-input ember-view">
+
+            <input tabindex="3" type="submit" class="login-button" value="登录">
+        </form>
+        <div class="footer">
+            <p>技术支持：<a href="https://womade.github.io/Profile">遠徵在綫</a></p>
+            <p><a href="http://www.beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer"><%= ICP %></a> </p>
+            <%- INFO %>
+        </div>
+        <script>
+            console.log('\n' + ' %c 楊遠徵の部落格 ' + ' ' + ' %c https://womade.github.io/Blog ' + '\n', 'color: #fadfa3; background: #030307; padding:5px 0;', 'background: #fadfa3; padding:5px 0;');
+        </script>
+</body>
+
+</html>
