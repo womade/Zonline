@@ -18,7 +18,7 @@ router.get("/", function (req, res, next) {
       .then(
         function (results) {
           res.render("comments", {
-            title: process.env.SITE_NAME + "上的评论",
+            title: process.env.SITE_NAME + "上的评论 - 中國遠徵",
             comment_list: results,
             moment: moment,
             zone: String(process.env.LEANCLOUD_REGION),
