@@ -56,7 +56,7 @@ exports.notice = (comment) => {
 
   if (!process.env.DISABLE_EMAIL) {
     const emailSubject =
-      "📌 ● 啟奏皇上，「" + process.env.SITE_NAME + "」上有壹刁民求見，是見呢還是斬了，您說了算。💦";
+      "📌 ● 「" + process.env.SITE_NAME + "」评论提醒";
     const emailContent = noticeTemplate({
       siteName: process.env.SITE_NAME,
       siteUrl: process.env.SITE_URL,
