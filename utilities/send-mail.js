@@ -184,7 +184,7 @@ exports.send = (currentComment, parentComment) => {
     return;
   }
   const emailSubject =
-    "📌 哇！「" + process.env.SITE_NAME + "」上有人回复了你啦！快点我！💦";
+    "📌 叮！「" + process.env.SITE_NAME + "」上有人回复了你啦！快戳我！💦";
   const emailContent = sendTemplate({
     siteName: process.env.SITE_NAME,
     siteUrl: process.env.SITE_URL,
