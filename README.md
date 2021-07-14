@@ -2,13 +2,13 @@
 
 Deploy your own Waline project with Vercel.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/import-flow?s=https://github.com/womade/Zonline)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/import-flow?s=https://github.com/womade/zonline)
 
 ### How We Created This Example
 
 ```js
 //index.js
-const Waline = require('@womade/Zonline');
+const Waline = require('@womade/zonline');
 module.exports = Zonline();
 
 //vercel.json
