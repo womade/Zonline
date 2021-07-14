@@ -3,6 +3,6 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "@womade/zonline": "^0.25.1"
+    "@womade/zonline": "^0.25.2"
   }
 }
