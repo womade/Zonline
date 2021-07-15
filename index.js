@@ -1,4 +1,4 @@
-const Application = require('@womade/zonline');
+const Application = require('@waline/waline');
 
 module.exports = Application({
   async postSave(comment) {
